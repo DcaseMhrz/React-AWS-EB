@@ -20,3 +20,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - npm run build
+
+artifacts:
+  files:
+    - "**/*"
