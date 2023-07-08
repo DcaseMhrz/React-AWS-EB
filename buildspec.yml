@@ -20,7 +20,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - npm install -g serve
 
 artifacts:
   files:
-    - "**/*"
+    - "build"
+    - "package.json"
